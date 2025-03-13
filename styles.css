@@ -1,0 +1,579 @@
+/* CSS File: styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar.fixed-top {
+    background-color: #1B1A55; 
+}
+
+.navbar .navbar-toggler {
+    margin-right: 10px;
+    border-color: #1B1A55; /* Change the border color */
+    background-color: #1B1A55; /* Change the background color of the toggler */
+}
+
+/* Change the navbar-toggler icon stroke color */
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath stroke='%23ffffff' stroke-width='3' stroke-linecap='round' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    /* Change `%23ffffff` to your desired color (e.g., `%23ff0000` for red) */
+}
+
+.navbar-brand {
+    font-family: "poppins";
+    font-weight: 500;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Default font color for nav links */
+.navbar .nav-link {
+    font-family: "poppins";
+    font-weight: 500;
+    color: #ffffff; /* Change to your desired font color */
+}
+
+/* Hover effect for nav links */
+.navbar .nav-link:hover {
+
+    color: #EC8305; /* Change to the hover color */
+}
+
+.navbar-nav {
+    margin-left: auto;
+    
+    }
+
+.hero-section {
+    background: #070F2B;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.hero-content {
+    display :flex;
+    align-items: center;
+    gap: 100px; /* Space between image and text */
+}
+
+.hero-image {
+
+    margin-left: 25px;
+    max-width: 300px; /* Adjust the size of the image */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Adds a subtle shadow */
+}
+
+.hero-section h1 {
+    font-family: "poppins";
+    font-weight: 700;
+    margin-left: 0;
+    color: #fcfcfc;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.hero-section .type{
+    font-family: "poppins";
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 2.5px;
+    color:#9290C3 ;
+}
+
+.hero-section .type .typing2{
+    font-family: "poppins";
+    color: #EC8305;
+}
+
+.hero-section .social-links a {
+    color: white;
+    margin-left: 1px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.hero-section .social-links{
+    margin-right: 15px;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 15px;
+    display: inline-block;
+
+}
+
+.hero-section .social-links a:hover {
+    color: #9290C3;
+}
+
+.cv-wrap{
+
+    justify-content: center;
+    align-items: center;
+}
+/* Button Styling */
+ .button {
+    font-family: "poppins";
+    background-color: #1B1A55; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove border */
+    border-radius: 30px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.); /* Add shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth effects */
+}
+
+/* Hover Effect */
+.button:hover {
+    background-color: #1B1A55; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Focus Effect */
+.button:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 8px #1B1A55; /* Add a glow */
+}
+
+.about-me {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.about-image {
+    margin-bottom: 15px;
+    margin-left: 25px;
+    max-width: 300px; /* Adjust the size of the image */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Adds a subtle shadow */
+}
+
+.about-me h2 {
+    text-align: center;
+    font-family: "poppins";
+    font-weight: 900;
+    color: #070F2B;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    text-align: center;
+    font-family: "poppins";
+    font-weight: 500;
+    color: #000000;
+}
+
+.row h3{
+    text-align: left;
+    font-family: "poppins";
+    font-weight: 600;
+    color: #070F2B;
+    margin-bottom: 20px;
+
+}
+
+.py-img{
+    width: 150px;
+    height: 75px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.flutter-img{
+    margin-bottom: 30px;
+    margin-right: 40px;
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+}
+
+.html-img{
+    margin-bottom: 30px;
+    width: 170px;
+    height: 70px;
+}
+
+.node-img{
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 120px;
+    height: 70px;
+}
+
+.firebase-img{
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 120px;
+    height: 60px;
+}
+
+.java-img{
+    margin-bottom: 30px;
+    width: 120px;
+    height: 60px;
+}
+
+.react-img{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 110px;
+    height: 80px;
+}
+
+.reactnative-img{
+    margin-bottom: 30px;
+    width: 150px;
+    height: 90px;
+}
+
+
+/* Timeline Container */
+.timeline {
+    position: relative;
+    padding-left: 40px; /* Increased padding to align with the vertical line */
+    margin: 0;
+  }
+  
+  /* Vertical Line */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px; /* Center the line within the padding */
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #1B1A55;
+  }
+  
+  /* Timeline Item */
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 15px; /* Align with the center of the vertical line */
+    top: 10px; /* Adjust to center the bullet with the timeline content */
+    width: 12px;
+    height: 12px;
+    background: #1B1A55;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Timeline Content */
+  .timeline-content {
+    margin-left: 50px; /* Align the content properly next to the vertical line */
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline-content .year {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #1B1A55;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-content p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  
+
+.experience-item {
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.publication-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .publication-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .publication-card .card-title {
+    font-weight: bold;
+    color: #1B1A55;
+  }
+  
+  .publication-card .card-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .publication-card .card-text a:hover {
+    text-decoration: underline;
+  }
+  
+.project{
+    margin-top: 30px;
+    background-color: #070F2B;
+    height: auto;
+}
+.project h2{
+    font-family: "poppins";
+    font-weight: 900;
+    color: #ffffff;
+}
+.project .container{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#projects {
+    overflow: hidden;
+    position: relative;
+}
+
+.card-list .card-item{
+    list-style: none;
+}
+
+.card-list .card-item .card-link{
+    height: 350px;
+    width: 300px;
+    display: block;
+    background: #fcfcfc;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 8px 8px rgb(61, 60, 146, 0.5);
+    transition: 0.2s ease;
+
+}
+
+.card-list .card-item .card-link:hover{
+    border-color: #1B1A55;
+}
+
+.card-list .card-link .card-image{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-list .card-link .badge{
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 18px;
+    color: #1B1A55;
+    margin: 10px 0 10px;
+    padding: 0;
+    text-align: left;
+
+}
+
+.card-list .card-link .card-title{
+    color: #000000;
+    font-family: "poppins";
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card-list .card-link .card-button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 10px 0 5px;
+    color: #1B1A55;
+    background: none;
+    cursor: pointer;
+    border: 2px solid #070F2B;
+    transform: rotate(-45deg);
+    transition: 0.4s ease;
+
+}
+
+.card-list .card-link:hover .card-button{
+    color: #ffffff;
+    background: #1B1A55;
+}
+
+#contact{
+    overflow: hidden;
+}
+
+
+.contact{
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+
+}
+.contact .container{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    }
+    
+.contact h2{
+        text-align: center;
+        font-family: "poppins";
+        font-weight: 900;
+        color: #070F2B;
+}
+
+.form-label{
+    font-family: "poppins";
+    font-weight: 500;
+    color: #1B1A55;
+}
+
+/* Change the background color of the input and textarea fields */
+.contact form input.form-control,
+.contact form textarea.form-control {
+    background-color: #e5e5e9; /* Light gray background */
+    border: 1px solid #ccc;    /* Optional: Add a light border */
+    color: #000000;              /* Optional: Text color */
+    padding: 10px;            /* Add padding for spacing */
+    border-radius: 5px;       /* Rounded corners */
+}
+
+/* Change the background color on focus */
+.contact form input.form-control:focus,
+.contact form textarea.form-control:focus {
+    background-color: #ffffff; /* Light blue background on focus */
+    border-color: #1B1A55;     /* Optional: Blue border on focus */
+    outline: none;             /* Remove default focus outline */
+}
+
+footer {
+    background-color: #070F2B;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-container h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-container a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.social-icons a i {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.social-icons a i:hover {
+    color: #0056b3;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    .hero-content {
+        display :block;
+        align-items: center; 
+        
+    }
+    .hero-image {
+        margin-top: 40px;
+        margin-bottom: 35px;
+        margin-left: 25px;
+        max-width: 300px; /* Adjust the size of the image */
+        height: auto;
+        border-radius: 50%; /* Makes the image circular */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Adds a subtle shadow */
+    }
+    .hero-text {
+        text-align: center;
+    }
+    .navbar .nav-link {
+        margin-left: 10px;
+    }
+    .cv {
+        margin-top: 45px;
+    }
+
+    .card {
+        flex: 0 0 50%; /* Show 2 cards per row on smaller screens */
+    }
+
+
+}
+
+
